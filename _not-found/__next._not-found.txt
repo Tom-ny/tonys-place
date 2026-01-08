@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[22497,["/tonys-place/_next/static/chunks/61b5c0e29a4ac193.js","/tonys-place/_next/static/chunks/efc998d84936a9c1.js"],"default"]
 3:I[90573,["/tonys-place/_next/static/chunks/61b5c0e29a4ac193.js","/tonys-place/_next/static/chunks/efc998d84936a9c1.js"],"default"]
-0:{"buildId":"OGURL7JX8TbzEq2f7VYlJ","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"u9t7JZYIjmYi7EtvNaR46","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
