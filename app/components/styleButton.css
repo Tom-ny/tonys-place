@@ -1,0 +1,21 @@
+.buttonWrapper{
+
+    background-color: rgba(255, 127, 80, 0.74);
+    width: 65px;
+    height: 65px;
+    border-radius: 300px;
+    display: flex;
+    color: white; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;    
+    
+}
+
+
+.buttonWrapper:hover {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.151);
+    background-color: coral;
+    cursor: pointer;
+}
+

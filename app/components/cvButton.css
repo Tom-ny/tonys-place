@@ -1,0 +1,8 @@
+.cvButtonWrapper{
+    margin-top: 25vh;
+    pointer-events: auto;
+}
+
+.cvButtonWrapper:hover {
+    cursor: pointer;
+}

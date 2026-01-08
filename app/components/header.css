@@ -1,0 +1,10 @@
+.headerWrapper{
+    background-color: bisque;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+
+}
