@@ -1,7 +1,13 @@
 import "./header.css"
 import StyleButton from "./styleButton"
+import { useEffect, useState } from "react";
 
 function Header(){
+
+    const [showIntroText, setShowIntroText] = useState(true);
+
+    useEffect
+
 
     return(
     <>
@@ -17,7 +23,7 @@ function Header(){
     )
 
 }
-
+ 
 function HeaderExperimental(){
     return(
     <>

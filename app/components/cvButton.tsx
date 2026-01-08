@@ -9,17 +9,19 @@ type cvButtonProps = {
     onHoverChange?: (isHovered: boolean) => void; //callback prop
 } & React.HTMLAttributes<HTMLDivElement>;
 
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 function CvButton(props: cvButtonProps){
 
-    const trueSrc = "/ankaFrame+CV.png";
-    const falseSrc = "/ankaFrame.png"; 
+    //const trueSrc = "/ankaFrame+CV.png"; IMAGES IMPORTED AS OBJECTS INSTEAD, otherwise gh-pages breaks
+    //const falseSrc = "/ankaFrame.png"; 
+    const trueSrc = `${basePath}/ankaFrame+CV.png`;
+    const falseSrc = `${basePath}/ankaFrame.png`;
 
     const [isHovered, setIsHovered] = useState(false); //local hover state of the component
 
     const handleClick = () => {
-        window.open('/Resume_2025.pdf')
+        window.open(`${basePath}/Resume_2025.pdf`)
     }
 
     return(

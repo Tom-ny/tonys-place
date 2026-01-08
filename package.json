@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Tom-ny.github.io/tonys-place",
   "name": "tonys-place",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
