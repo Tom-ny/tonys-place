@@ -1,0 +1,24 @@
+.tlCompWrapper{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+}
+
+.tlCompWrapper h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.tlCompWrapper.right{
+    justify-content: right;
+    
+}
+
+.tlCompWrapper.left{
+    
+    align-items: left;
+    
+    
+}

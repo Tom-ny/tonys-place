@@ -27,3 +27,10 @@
 .hoverMeText{
     margin-top: 15px;
 }
+
+.timeLineWrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

@@ -9,9 +9,9 @@ function StyleButtonRow(props: buttonRowProps) {
     return(
     <>
         {/* <div className="styleButtonRowWrapper"> */}
-        <StyleButton number={1}/> 
-        <StyleButton number={2}/>
-        <StyleButton number={3}/>
+        <StyleButton number={1} routerPath='/1'/> 
+        <StyleButton number={2} routerPath='/2'/>
+        <StyleButton number={3} routerPath='/3'/>
         {/* </div> */}
     </>);
 }

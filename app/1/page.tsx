@@ -1,11 +1,9 @@
 'use client';
 
-import CvButton from "./components/cvButton";
-import "./page.css"
+import CvButton from "../components/cvButton";
+import "../page.css"
 
 import { useState } from "react";
-import { TbBackground } from "react-icons/tb";
-
 export default function Home() {
 
   const [isButtonHovered, setButtonHovered] = useState(false);

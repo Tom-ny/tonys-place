@@ -1,3 +1,5 @@
+'use client'
+
 import "./header.css"
 import StyleButtonRow from "./headerComponents/styleButtonRow";
 import StyleButton from "./styleButton"
